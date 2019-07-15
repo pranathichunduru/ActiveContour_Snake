@@ -24,21 +24,6 @@
 %   in the snake objective function) or leave them with their default value
 %   and click "Iterate" button. The snake would appear and move as it
 %   converges to its low energy state.
-%
-% Copyright (c) Ritwik Kumar, Harvard University 2010
-%               www.seas.harvard.edu/~rkkumar
-%
-% This code implements “Snakes: Active Contour Models” by Kass, Witkin and
-% Terzopolous incorporating Eline, Eedge and Eterm energy factors. See the
-% included report and the paper to learn more.
-%
-% If you find this useful, also look at Radon-Like Features based
-% segmentation in  the following paper:
-% Ritwik Kumar, Amelio V. Reina & Hanspeter Pfister, “Radon-Like Features 
-% and their Application to Connectomics”, IEEE Computer Society Workshop %
-% on Mathematical Methods in Biomedical Image Analysis (MMBIA) 2010
-% http://seas.harvard.edu/~rkkumar
-% Its code is also available on MATLAB Central
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [smth] = filter_function(image, sigma)
